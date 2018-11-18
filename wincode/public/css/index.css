@@ -1,0 +1,153 @@
+/*HEADER*/
+
+header{}
+
+/*HEADER - SEARCH*/
+
+header .search{}
+
+header .search.hide{}
+
+header .search.view{}
+
+/*HEADER - SEARCH*/
+
+header .logo{
+
+}
+ 
+header .logo.hidden{
+	display: none;
+}
+header .logok.hidden{
+	display: none;
+}
+header .logo.view{}
+/*HEADER - COLLECTION*/
+
+header .collection{}
+
+
+
+header .collection.hidden{display: none;}
+
+header .collection.view{
+ text-transform: capitalize;
+ float: right;
+ font-weight: bold;
+ font-size: 1rem;
+ cursor: pointer;
+ color: white;
+}
+header .collection div.button
+{
+float: right;
+padding:2vh 2vw;
+margin: 0 1vh;
+
+}
+header .collection .wiki
+{
+ background-color: #218c1c;
+ border-radius: 3rem;
+ 
+}
+header .collection .photo
+{
+ background-color:#e44545;
+ border-radius: 3rem;
+}
+header .collection .video
+{
+ background-color:#dad828;
+ border-radius: 3rem;
+}
+header .collection .post
+{
+ background-color:#0c7bb9;
+ border-radius: 3rem;
+}
+
+
+    /*HEADER - COLLECTION - BUTTONS*/
+
+
+    /*HEADER - COLLECTION - BUTTONS*/
+
+/*HEADER - COLLECTION*/
+
+/*HEADER*/
+
+/*SECTION*/
+
+section{}
+
+@keyframes test{
+					0%{opacity:0; }
+					100%{opacity: 1; }
+			}
+			/*@keyframes testReverse{
+					0%{opacity:1; }
+					100%{opacity: 0; }
+			}*/
+		.move{
+			display: flex;
+			animation: test 3s ease;	
+		}
+		.nomove{
+			display: none;
+			/*animation: testReverse 3s ease;*/
+		}
+/*SECTION SEARCH*/
+
+section .search{
+	width: 500px;
+	margin: 50px auto 0 auto;
+}
+
+section .search.view{
+	display: block;
+}
+
+section .search.hide{
+	display: none;
+}
+section .search .icons{
+	display: flex;
+	justify-content: space-around;
+	padding: 80px 30px;
+
+}
+section .search .form .form-control{
+	width: 450px;
+	padding: 0 22px;
+	box-shadow: 0 0 10px #1779B4;
+	border-radius: 50px;
+	height: 60px;
+
+}
+.circle{
+	width: 60px;
+}
+section .form{
+	display: display;
+}
+/*section .search .logo .view{
+	width: 700px;
+}*/
+
+/*SECTION SEARCH*/
+
+/*SECTION*/
+
+/*FOOTER*/
+
+footer{}
+
+footer context{}
+
+footer context.hide{}
+
+footer context.view{}
+
+/*FOOTER*/
